@@ -85,3 +85,13 @@ const typingObserver = new IntersectionObserver((entries, observer) => {
 }, typingObserverOptions);
 
 typingElements.forEach(el => typingObserver.observe(el));
+
+//Adicionando música
+
+const music = document.getElementById('bg-music');
+
+document.addEventListener('click', () => {
+  if (music && music.paused) {
+    music.play();
+  }
+}, { once: true });

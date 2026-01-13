@@ -27,9 +27,9 @@ section {
   background: #fff;
 }
 
-section.s2 { background-color: var(--rosa); }
+section.s2 { background-color: var(--rosa); color: var(--white);}
 section.s3 { background-color: var(--white); }
-section.s4 {background-color: var(--rosa);}
+section.s4 {background-color: var(--rosa); color: var(--white);}
 
 /* Conteúdo */
 .center {
